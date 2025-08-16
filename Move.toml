@@ -1,0 +1,15 @@
+[package]
+name = "study-streak"
+version = "1.0.0"
+authors = []
+
+[addresses]
+StudyStreak= "0xc41e94eaa56a2b5102b64c2524e031504d5fc6a6226713d9269642ec573c8e1a"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
